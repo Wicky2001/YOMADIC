@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+  }
+  .body-second-part{
+    padding:0px 5vw;
+    
+  }
+
+
+/* navbar---------------------------------------------------------- */
+.navbar{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  border: 0px;
+ 
+
+  
+  z-index:100;
+}
+
+.background_heading {
+  font-family: "Caveat", cursive;
+  font-size: 10vw;
+  position: absolute;
+  top: 11.71875vw;
+  right:100px;
+  color: white;
+  opacity: 0.8;
+  
+
+}
+
+.navbar-toggler{
+  
+}
+
+.navTexts {
+
+  font-weight: 600;
+}
+
+
+  /* destination overview -------------------------------------------------------*/
+
+  .desti-pic img{
+    
+    width:100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4474ab;
+    max-height: 400px;
+    object-fit: cover;
+    max-width: 800px;
+
+    
+  
+  
+  
+  }
+  .desti-over-view{
+    margin-top:80px ;
+  }
+  
+  .desti-pic{    
+   
+   margin-top: 5vw;
+
+   margin-left: auto;
+   margin-right: auto;
+  
+  }
+
+  .desti-desc-sh{
+    margin-top: 5vw;
+  }
+  .desc-sh h3{
+    font-size: 20px;
+    font-family: "Caveat", cursive;
+    color: #6895c9;
+  }
+
+  .dest-sh-clr{
+    line-height: 50px;
+  }
+
+  .dest-sh-clr i {
+    margin-right: 10px;
+  }
+
+  .dest-sh-clr-ash{
+
+    color: rgb(72, 70, 70);
+  }
+  
+  .dest-sh-clr a{
+ text-decoration: none;
+  }
+
+  .desti-para {
+    margin-top: 4vw;
+  }
+  .desti-para p{
+    color: #144040;
+  }
+/* google map containe------------------------------------------------------------------------------------------------------ */
+  .gmap-container{
+    text-align: center;
+  }
+  .gmap-container h2{
+    color: #4b9b9b;
+    border-bottom: 2px solid rgb(142, 192, 239);
+    padding-bottom: 10px;
+   
+  }
+  /* .gmap-container iframe{
+    margin-top: 5vw;
+    max-width: 300px;
+    max-height: 200px;
+  } */
+
+  footer {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(39, 154, 174) , rgb(105, 186, 215));
+    padding-top: 2%;
+    padding-bottom: 0.1%;
+    border-radius: 2px;
+    margin-top: 100px;
+    bottom: 0px;
+  
+  }
+  
+  .social_media_icons {
+    color: #eff5f5;
+    font-size: 18px;
+    margin: 0 2%;
+  }
+  .copy_right_claim {
+    margin-bottom: 10px;
+    color: #eff5f5;
+    font-size: 10px;
+  }
+  .social_icon_container {
+    margin: 50px 0 40px 0;
+  }
+  footer h3 {
+    color: #eff5f5;
+    margin-top: 8px;
+  }
+  .sub_text {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 1170px) {
+  
+      .desti-over-view{
+        display: flex;
+        gap:3vw;
+      }
+
+  }
+
+@media screen and (max-width: 700px) {
+  
+  .gmap-container iframe{
+    margin-top: 5vw;
+    max-width: 300px;
+    max-height: 200px;
+  }
+  }
+@media screen and (min-width: 900px) {
+  
+  .gmap-container iframe{
+    margin-top: 5vw;
+    max-width: 600px;
+    max-height: 400px;
+  }
+
+  }
+
+
+
+  
